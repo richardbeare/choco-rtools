@@ -1,7 +1,7 @@
 all: build
 
 build:
-	choco pack
+	choco pack *.nuspec
 
 install:
 	choco install rtools -s *.nupkg -f -y

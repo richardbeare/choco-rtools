@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rtesting</id>
+    <title>rtesting (Install)</title>
+    <version>3.7</version>
+    <authors>R Core Team</authors>
+    <!--<owners>R Core Team</owners>-->
+    <summary>R for Windows with test toolchain</summary>
+    <description>R for windows with test toolchain</description>
+    <projectUrl>https://stat.ethz.ch/CRAN/bin/windows/testing/</projectUrl>
+    <packageSourceUrl>https://github.com/leeper/choco-rtools</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>rtools admin r-project r cran</tags>
+    <copyright>The R Foundation for Statistical Computing</copyright>
+    <licenseUrl>https://www.r-project.org/Licenses/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/r-devel.png</iconUrl>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools2\**" target="tools2" />
+  </files>
+</package>
