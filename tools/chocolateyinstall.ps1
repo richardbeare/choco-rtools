@@ -1,7 +1,7 @@
 ﻿$packageName= 'rtools'
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://cran.r-project.org/bin/windows/Rtools/Rtools35.exe'
-$url64      = 'https://cran.r-project.org/bin/windows/Rtools/Rtools35.exe'
+$url        = 'https://stat.ethz.ch/CRAN/bin/windows/testing/rtools40-x86_64.exe'
+$url64      = 'https://stat.ethz.ch/CRAN/bin/windows/testing/rtools40-x86_64.exe'
 
 $packageArgs = @{
   packageName   = $packageName
